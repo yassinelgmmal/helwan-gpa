@@ -231,7 +231,7 @@ const Subject = ({id, checked, grade, onSubjectChange, onSubjectRemove}) =>{
                     />
                     Subject GPA : {grade}
                     <br/>
-                    Hours : {(checked)?'2':'3'}
+                    Hours : {(checked)?'2':'3':'6'}
                 </Card.Content>
             </Card> 
         );
